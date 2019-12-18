@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbarMenuProfile"
+        android:icon="@drawable/ic_person_white_24dp"
+        app:showAsAction="always"
+        android:title="Show Profile"/>
+
+    <item
+        android:id="@+id/toolbarMenuProfile2"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always"
+        android:title="Show Profile"/>
+
+    <item
+        android:id="@+id/toolbarMenuAdd"
+        android:icon="@drawable/ic_add_circle_outline_white_24dp"
+        app:showAsAction="always"
+        android:title="Tambah Data"/>
+    <item
+        android:id="@+id/toolbarMenuLogout"
+        app:showAsAction="never"
+        android:title="Logout"/>
+</menu>
